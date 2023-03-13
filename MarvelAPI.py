@@ -3,8 +3,8 @@ import datetime
 import requests
 import pandas as pd
 
-pub_key = '2944d4357427e434c5da50ad20f05b72'
-priv_key = '45f0ff8ca500df607c0f69c7ef0263bca00b4215'
+pub_key = 'your public key'
+priv_key = 'your private key'
 ts = datetime.datetime.now().strftime('%Y-%m-%d%H:%M:%S')
 
 def hash_md5_params():
@@ -84,7 +84,7 @@ The colum names were used as keys and the lists as values.
          
 print(df)
 '''
-The 'print' comand showed de final DataFrame.
+The 'print' comand showed the final DataFrame.
 ''' 
 
 df.to_csv('MarvelAPI')
