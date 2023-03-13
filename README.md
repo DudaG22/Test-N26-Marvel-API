@@ -1,6 +1,8 @@
 # Test-N26-Marvel-API
 The test consists of outputting a python dataframe and .csv file, making request to the Marvel's Characters API
 
+The entire project was done using VsCode.
+
 The Marvel's API needs a hash MD5 encryption to be accessed.
 Were provided two keys, private key and public key.
 
